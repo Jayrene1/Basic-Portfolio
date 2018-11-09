@@ -5,7 +5,7 @@ html, body {
     padding: 0px;
     border: 0px;
     color: #000;
-    background: #fff;
+    background-image: url("../images/squairy_light_2x.png");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p { 
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 150%;
 }
 
 .container {
@@ -24,6 +25,7 @@ p {
 
 header {
     overflow: hidden;
+    background: #fff;
     border: 2px solid #cccccc;
 }
 
@@ -51,10 +53,35 @@ nav {
 }
 
 main {
-    background-image: url("file:///c:/Users/Joshua/Desktop/Bootcamp/Week 1 Homework/Basic-Portfolio/assets/images/tree_bark.png")
+    margin: 0;
+    overflow: auto;
+}
+
+.containerMain {
+    background-color: #ffffff;
+    float: center;
+    width: 912px;
+    height: 100%;
+    padding: 24px;
+    margin: 48px auto 144px auto;
+}
+
+.mainTitle {
+    color: #4aaaa5;
+    border-bottom: solid 2px  #dddddd;
+    padding-bottom: 20px;
+}
+
+#mainImage {
+    float: left;
+    margin-right: 24px;
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     overflow: hidden;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
