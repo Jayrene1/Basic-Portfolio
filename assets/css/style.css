@@ -24,8 +24,10 @@ a {
     color: #777777;
 }
 
-a:hover {
-    background-color: #cccccc;
+.nav-link:hover {
+    background-color: #777777;
+    color: #ffffff;
+    transition: 0.5s;
 }
 
 .container {
@@ -44,6 +46,16 @@ a:hover {
 .container-1 > a {
     margin: 32px;
 }
+
+.portfolioImage {
+    opacity: 1;
+}
+
+.portfolioImage:hover {
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
 
 header {
     overflow: hidden;
@@ -148,4 +160,8 @@ footer {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
+}
+
+footer > p {
+    color: #ffffff;
 }
